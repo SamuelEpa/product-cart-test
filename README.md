@@ -30,7 +30,7 @@ cd product-cart-test
 
   ## Explicacion
 
-![Vista de la app](/captura.png)
+![Vista de la app](./public/captura.png)
 
 1. En src/app/api/cart/route.ts se encuentran los endpoints correspondientes a /cart
 
