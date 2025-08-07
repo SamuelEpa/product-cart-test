@@ -45,7 +45,7 @@ const TableProducts = () => {
 
 
   const onSearchBudget = (value: string) => {
-    if (!value) return message.error("Ingresa un presupuesto");
+    if (!value) return
     const num = Number(value);
     if (isNaN(num)) return message.error("Ingresa un presupuesto valido");
     setBudget(num);
